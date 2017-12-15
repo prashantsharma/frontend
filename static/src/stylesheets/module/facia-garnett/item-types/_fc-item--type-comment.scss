@@ -52,7 +52,8 @@
         &.fc-item--three-quarters-right-tablet,
         &.fc-item--full-media-50-tablet,
         &.fc-item--full-media-75-tablet,
-        &.fc-item--full-media-100-tablet {
+        &.fc-item--full-media-100-tablet,
+        &.fc-item--fluid-tablet {
             @include mq(tablet) {
                 .fc-item__container > .fc-item__meta {
                     .fc-trail__count--commentcount {
@@ -297,7 +298,8 @@
     
         &.fc-item--full-media-50-tablet,
         &.fc-item--full-media-75-tablet,
-        &.fc-item--full-media-100-tablet {
+        &.fc-item--full-media-100-tablet,
+        &.fc-item--fluid-tablet {
             @include mq(tablet) { 
                 .fc-item__header {
                     width: auto;
