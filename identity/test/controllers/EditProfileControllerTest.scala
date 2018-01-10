@@ -470,7 +470,7 @@ import scala.concurrent.Future
       }
     }
 
-    "displayEmailPrefsForm method" should {
+    "displayEmailPrefsForm method" ignore {
       "display Guardian Today UK newsletter as subscribed" in new EditProfileFixture {
         val userEmailSubscriptions = List(EmailList(EmailNewsletters.guardianTodayUk.listId.toString))
         when(api.userEmails(MockitoMatchers.anyString(), MockitoMatchers.any[TrackingData]))
