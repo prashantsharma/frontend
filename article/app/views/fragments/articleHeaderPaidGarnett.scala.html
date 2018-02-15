@@ -11,7 +11,7 @@
         <div class="gs-container">
             <div class="content__main-column u-cf">
                 @fragments.meta.metaInline(article)
-                <h1 class="content__headline" articleprop="headline" @langAttributes(article.content)>
+                <h1 class="content__headline" itemprop="headline" @langAttributes(article.content)>
                     @Html(article.trail.headline)
                 </h1>
             </div>
